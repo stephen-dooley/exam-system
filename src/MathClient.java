@@ -1,6 +1,5 @@
 /*
-Niall Grogan - 12429338
-Stephen Dooley - 12502947
+ * Author(s): Stephen Dooley, Niall Grogan
  */
 import java.rmi.RemoteException;
 import java.rmi.registry.LocateRegistry;

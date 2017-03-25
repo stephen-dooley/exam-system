@@ -1,6 +1,5 @@
 /*
-Niall Grogan - 12429338
-Stephen Dooley - 12502947
+ * Author(s): Stephen Dooley, Niall Grogan
  */
 import java.util.Date;
 import java.util.List;
@@ -8,7 +7,7 @@ import java.io.Serializable;
 
 public interface Assessment extends Serializable {
 
-	// Return information about the assessment	
+	// Return information about the assessment
 	String getInformation();
 
 	// Return the final date / time for submission of completed assessment

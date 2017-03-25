@@ -1,6 +1,5 @@
 /*
-Niall Grogan - 12429338
-Stephen Dooley - 12502947
+ * Author(s): Stephen Dooley, Niall Grogan
  */
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -36,7 +35,7 @@ public class MathsMCQ implements Assessment {
     //Information about the assessment
     public String getInformation() {
     	return "This is a Maths Assessment" +
-    			      "\nNumber of questions: " + Integer.toString(numQuestions) + 
+    			      "\nNumber of questions: " + Integer.toString(numQuestions) +
     			      "\nClosing Date: " + closingDate;
     }
 

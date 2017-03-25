@@ -1,6 +1,5 @@
 /*
-Niall Grogan - 12429338
-Stephen Dooley - 12502947
+ * Author(s): Stephen Dooley, Niall Grogan
  */
 import java.rmi.RemoteException;
 import java.rmi.registry.LocateRegistry;
@@ -22,7 +21,7 @@ public class ExamEngine implements ExamServer {
     }
 
     // Return an access token that allows access to the server for some time period
-    public int login(String studentid, String password) throws 
+    public int login(String studentid, String password) throws
                 UnauthorizedAccess, RemoteException {
         //Only permitting username "a" and password "a"
         try {
@@ -67,7 +66,7 @@ public class ExamEngine implements ExamServer {
     // Return an Assessment object associated with a particular course code
     public Assessment getAssessment(int token, String studentid, String courseCode) throws
     						UnauthorizedAccess, NoMatchingAssessment, RemoteException {
-        try { 
+        try {
 	    	if (token == 999) {
 	            if (studentid.equals("a")) {
                     switch(courseCode) {
