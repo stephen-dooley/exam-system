@@ -1,8 +1,12 @@
 
 ### Run the RMI registry
-Assuming  your machine can run javac, run the following commands  to run the RMI registry:
+Assuming  your machine can run javac, run the following commands to run the RMI registry.
 
+
+Navigate to the directory where you want to set up the RMI registry
 `$ cd ~/ExamSystem/out/production/ExamSystem`
+
+Run the RMI registry
 `$ rmiregistry`
 
 ### Run the Exam System Server and Client
